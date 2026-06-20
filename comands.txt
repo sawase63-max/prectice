@@ -1,0 +1,25 @@
+pwd
+ls
+cd
+mkdir
+rmdir
+touch
+cat
+cp
+mv
+rm
+chmod
+chown
+grep
+sort
+uniq
+wc
+ps
+top
+kill
+ping
+ssh
+scp
+nano
+sudo
+sudo su
