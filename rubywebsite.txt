@@ -1,1 +1,6 @@
 https://www.tutorialspoint.com/ruby/ruby_variables.htm
+
+
+git push origin main
+remote: Permission to sawase63-max/ruby_learning.git denied to Payal06012.
+fatal: unable to access 'https://github.com/sawase63-max/ruby_learning.git/': The requested URL returned error: 403
