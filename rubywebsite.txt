@@ -20,3 +20,17 @@ rm ~/.git-credentials
 git remote -v
 git config --global credential.helper
 cat ~/.git-credentials
+
+
+rails@rails:~/Documents/Ruby$ git config --list
+user.email=sawase63@gmail.com
+user.name=sawase63-max
+user.email==
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/sawase63-max/ruby_learning.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+user.email=swase63@gmail.com
+user.name=sawase63-max
