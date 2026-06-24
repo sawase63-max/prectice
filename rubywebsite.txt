@@ -34,3 +34,35 @@ remote.origin.url=https://github.com/sawase63-max/ruby_learning.git
 remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 user.email=swase63@gmail.com
 user.name=sawase63-max
+
+
+/////////////////////////////////////////////////////////////////
+
+GIT_CURL_VERBOSE=1 git push origin main
+
+GIT_TRACE=1 git push origin main
+
+git config --global --unset credential.helper
+
+git credential reject
+
+protocol=https
+host=github.com
+aur end me ek blank line enter kar dena.
+
+gh auth status
+gh auth logout
+
+
+Ctrl + Shift + P
+Type: GitHub: Sign Out
+Ya Accounts icon (bottom left / top right) → Sign Out
+
+
+ssh -T git@github.com
+
+Agar output:
+
+Hi Payal06012!
+
+To SSH key Payal account se linked hai.
