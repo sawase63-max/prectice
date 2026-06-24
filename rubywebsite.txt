@@ -66,3 +66,28 @@ Agar output:
 Hi Payal06012!
 
 To SSH key Payal account se linked hai.
+
+
+
+//////////////////////////////////////////////////////////////////////////
+
+ssh -T git@github.com
+The authenticity of host 'github.com (20.207.73.82)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,20.207.73.82' (ECDSA) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+rails@rails:~/Documents/Ruby$ GIT_CURL_VERBOSE=1 git push origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+rails@rails:~/Documents/Ruby$ git config --global --unset credential.helper
+rails@rails:~/Documents/Ruby$ git credential reject
+yes
+warning: invalid credential line: yes
+fatal: unable to read credential from stdin
+rails@rails:~/Documents/Ruby$ protocol=https
+rails@rails:~/Documents/Ruby$ host=github.com
+rails@rails:~/Documents/Ruby$ 
