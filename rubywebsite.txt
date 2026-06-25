@@ -89,5 +89,15 @@ yes
 warning: invalid credential line: yes
 fatal: unable to read credential from stdin
 rails@rails:~/Documents/Ruby$ protocol=https
+
+
+/////////////////////////////////////////////////////
+ git push -u origin main
+Username for 'https://github.com': sawase63-max
+Password for 'https://sawase63-max@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/sawase63-max/ruby_learning-.git/'
+rails@rails:~/Documents/Ruby$ 
+
 rails@rails:~/Documents/Ruby$ host=github.com
 rails@rails:~/Documents/Ruby$ 
