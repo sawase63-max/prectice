@@ -6,3 +6,6 @@ a = [1,2,3,4,4,5]
 a.each {|i| a << i * 2 }
 
 print a
+/////////////////////////////////////////////////////////
+
+https://www.codecademy.com/learn/learn-ruby/modules/learn-ruby-blocks-and-sorting-u/cheatsheet
