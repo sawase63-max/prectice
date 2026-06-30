@@ -9,3 +9,27 @@ print a
 /////////////////////////////////////////////////////////
 
 https://www.codecademy.com/learn/learn-ruby/modules/learn-ruby-blocks-and-sorting-u/cheatsheet
+
+
+/////////////////////////////////////////////////////////////////////////////
+
+class Greater
+  def initialize(greating)
+    @greating = greating
+  end
+
+
+  def to_proc
+    proc {|name| "#{@greating}, #{name}!!!!!!!" }
+  end
+
+  def to_proc
+    proc {|name| "#{@greating}, #{name}!" }
+  end
+
+end
+
+hi = Greater.new("Hi")
+hey = Greater.new("Hey")
+puts ["Bob", "Jane"].map(&hi) 
+puts ["Bob", "Jane"].map(&hey) 
