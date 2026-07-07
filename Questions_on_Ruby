@@ -83,6 +83,43 @@ error: failed to push some refs to 'git@github.com:sawase63-max/ruby_learning-.g
 hint: Updates were rejected because the remote contains work that you do
 hint: not have locally. This is usually caused by another repository pushing
 hint: to the same ref. You may want to first integrate the remote changes
+
+
+
+
 hint: (e.g., 'git pull ...') before pushing again.
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ ROLE = ["ADMIN", "CUTOMER", "VENDOR"]
+
+  def register(email, password, role)
+      if ROLE.include?(role.upcase)
+          if email.match?(/[a-z]/) && password.length > 7 
+            file = File.open("#{role}_register.txt", "a")
+
+            hash = {email: email,
+                    password: password,
+                    role: role
+                    }
+            
+            print hash
+            if file 
+              file.syswrite("#{hash}")
+            end
+          else 
+            puts "invalid password/email"
+          end
+      else
+        puts "please enter valid role"
+      end    
+  end
+
+end
+
+v =Vendar.new 
+
+v.register("ass122@gmail.com","valid@123","admin")
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
